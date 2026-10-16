@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="关于李思远 - 全栈开发者，技术写作爱好者">
+  <title>关于我 - 代码拾遗</title>
+  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+  <!-- ===== 顶部导航栏 ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">代码拾遗</a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="index.html#articles" class="nav-link" data-nav="articles">文章</a>
+        <a href="about.html" class="nav-link" data-nav="about">关于</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== 主体内容区 ===== -->
+  <main class="container">
+    <div class="about-wrap">
+
+      <!-- 个人头像 + 姓名 + 一句话介绍 -->
+      <section class="about-hero">
+        <img class="about-avatar" src="assets/avatar.svg" alt="李思远的头像">
+        <h1 class="about-name">李思远</h1>
+        <p class="about-tagline">全栈开发者 · 技术写作爱好者</p>
+      </section>
+
+      <!-- 自我介绍（三段） -->
+      <section class="about-section">
+        <h2>关于我</h2>
+        <p>你好，我是李思远，一名有六年经验的全栈开发者，目前在上海从事 SaaS 产品研发。白天写代码，晚上写博客，主要关注前端工程化、JavaScript 语言本身，以及大模型时代的开发方式变革。</p>
+        <p>工作之外，我喜欢把踩过的坑整理成文章。我始终相信：<strong>能讲清楚的技术，才是真正掌握的技术</strong>。写作的过程逼着我把似懂非懂的概念彻底想透，这也是「代码拾遗」这个名字的由来——把日常开发中一闪而过的碎片，拾起来打磨成可以沉淀的东西。</p>
+        <p>这个博客本身也是我的一个练手项目：不依赖任何框架，用最朴素的 HTML、CSS 和原生 JavaScript 搭建，源码结构清晰，欢迎参考与交流。如果你对某篇文章有疑问，或者想聊聊技术合作，随时欢迎通过下面的方式联系我。</p>
+      </section>
+
+      <!-- 技能标签列表 -->
+      <section class="about-section">
+        <h2>技能标签</h2>
+        <ul class="skill-list">
+          <li class="skill-tag">JavaScript / TypeScript</li>
+          <li class="skill-tag">Vue / React</li>
+          <li class="skill-tag">CSS / 动效设计</li>
+          <li class="skill-tag">Node.js</li>
+          <li class="skill-tag">Python</li>
+          <li class="skill-tag">MySQL / Redis</li>
+          <li class="skill-tag">Git / CI-CD</li>
+          <li class="skill-tag">AI 辅助编程</li>
+        </ul>
+      </section>
+
+      <!-- 联系方式 -->
+      <section class="about-section">
+        <h2>联系方式</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📧</span>
+            <div class="contact-info">
+              <span class="contact-label">邮箱</span>
+              <a href="mailto:siyuan@example.com">siyuan@example.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">🐙</span>
+            <div class="contact-info">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/siyuan-dev" target="_blank" rel="noopener">github.com/siyuan-dev</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">💬</span>
+            <div class="contact-info">
+              <span class="contact-label">微信公众号</span>
+              <span class="contact-value">代码拾遗</span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <span class="contact-icon" aria-hidden="true">🐦</span>
+            <div class="contact-info">
+              <span class="contact-label">X（Twitter）</span>
+              <a href="https://x.com/siyuan_dev" target="_blank" rel="noopener">@siyuan_dev</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===== 页脚：版权信息 / 建站时间 / 驱动标识 ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- 第一行：版权信息 -->
+      <p class="footer-meta">
+        <span>© 2026 代码拾遗</span>
+        <span class="sep">·</span>
+        <span>保留所有权利</span>
+        <span class="sep">·</span>
+        <span>由 <a href="about.html">李思远</a> 维护</span>
+      </p>
+      <!-- 第二行：建站时间 + 技术栈 + AI 驱动标识 -->
+      <p class="footer-sub">
+        <span>建于 2026 年 7 月</span>
+        <span class="sep">·</span>
+        <span>用 HTML / CSS / JavaScript 手工打造</span>
+        <a class="footer-badge" href="https://claude.com/product/claude-code" target="_blank" rel="noopener" title="了解 Claude Code">
+          <span class="badge-icon" aria-hidden="true">✦</span>由 Claude Code 驱动
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- 返回顶部按钮（滚动超过一屏时由 JS 显示） -->
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="返回顶部" title="返回顶部">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

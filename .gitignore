@@ -1,0 +1,25 @@
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Node（预防性配置，当前项目无依赖） =====
+node_modules/
+package-lock.json
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+
+# ===== 本地文档（不发布到线上） =====
+prompt.txt
+
+# ===== Claude Code 本地会话配置 =====
+.claude/

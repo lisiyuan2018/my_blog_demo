@@ -1,0 +1,3 @@
+# 统一换行符处理：仓库内统一 LF，检出时按平台处理
+# 避免 Windows / macOS / Linux 协作时出现 CRLF / LF 混乱
+* text=auto
